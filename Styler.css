@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 93vh;
+    width: 100%;
+    background-color:black;
+    padding-top: 50px;
+}
+
+.Title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.comment {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.Container-Score {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 70px;
+    gap: 150px;
+    margin-bottom: 50px;
+}
+
+.Player-Score, .Npc-Score{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
+.Container-Pick {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+}
+
+.player {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.npc {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.Container-versus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.versus{
+    font-family: "Poppins", sans-serif;
+    left: 20px;
+    top: 15px;
+    color: white;
+    font-size: 45px;
+}
+
+.Player-Scissor{
+    display: none;
+    width: 100px;
+    height: 100px;
+}
+
+.Player-Paper{
+    display: none;
+    width: 100px;
+    height: 100px;
+}
+
+.Player-Rock{
+    display: none;
+    width: 100px;
+    height: 100px;
+}
+
+.Npc-Paper{
+    display: none;
+    width: 100px;
+    height: 100px;
+}
+
+.Npc-Scissor{
+    display: none;
+    width: 100px;
+    height: 100px;
+}
+
+.Npc-Rock{
+    display: none;
+    width: 100px;
+    height: 100px;
+}
+
+/*------------------------------------*/
+
+.select {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 400px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.Select-Scissor, .Select-Paper, .Select-Rock{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.ResetContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.reset {
+    display: none;
+    font-family: poppins, sans-serif;
+    padding: 10px;
+    width: 120px;
+    height: 50px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 16px;
+    cursor: pointer;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Styler.css" rel="stylesheet">
+    <title>Bato Bato Pick</title>
+</head>
+<body>
+
+    <div class="Container" id="mainContainer">
+        <p class="Title" id="Title">Bato Bato Pick</p>
+        <div class="Container-Score">
+            <p class="Player-Score" id="playerScore">0</p>
+            <p class="Npc-Score" id="npcScore">0</p>
+        </div>
+        <div class="Container-Pick" id="containerPick">
+            <div class="player">
+            <img src="Assets/img/Player-Scissor.png" class="Player-Scissor" id="playerScissor">
+            <img src="Assets/img/Player-Paper.png" class="Player-Paper" id="playerPaper">
+            <img src="Assets/img/Player-Rock.png" class="Player-Rock" id="playerRock">
+            </div>
+            <div class="Container-versus">
+                <p class="versus">VS</p>
+            </div>
+            <div class="npc" id="Npc">
+            <img src="Assets/img/Npc-Scissor.png" class="Npc-Scissor" id="npcScissor">
+            <img src="Assets/img/Npc-Paper.png" class="Npc-Paper" id="npcPaper">
+            <img src="Assets/img/Npc-Rock.png" class="Npc-Rock" id="npcRock">
+            </div>
+        </div>
+        <div class="ResetContainer" id="resetContainer">
+            <button class ="reset" id="Reset">Try again</button>
+        </div>
+        <div class="select" id="selectContainer">
+                <img src="Assets/img/Player-Scissor.png" class="Select-Scissor" id="selectScissor">
+                <img src="Assets/img/Player-Paper.png" class="Select-Paper" id="selectPaper">
+                <img src="Assets/img/Player-Rock.png" class="Select-Rock" id="selectRock">
+            </div>
+
+    </div>
+</body>
+<script src="functions.js"></script>
+</html>
